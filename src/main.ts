@@ -7,7 +7,7 @@ async function bootstrap() {
   app.enableCors({
     // ¡IMPORTANTE! Ahora debes poner el dominio real de tu sitio de WordPress.
     // También puedes poner varios si es necesario.
-    origin: ['https://market.blockey.tech/'],
+    origin: ['https://market.blockey.tech'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
