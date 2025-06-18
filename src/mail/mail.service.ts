@@ -188,8 +188,8 @@ export class MailService {
     const logoFile = files.logo ? files.logo[0] : null;
     const estatutoFile = files.estatuto ? files.estatuto[0] : null;
 
-    let logoUrl = null;
-    let estatutoUrl = null;
+    let logoUrl: string | null = null;
+    let estatutoUrl: string | null = null;
 
     try {
       // 1. Subir el logo a Supabase Storage si existe
